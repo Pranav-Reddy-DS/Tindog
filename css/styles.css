@@ -172,6 +172,10 @@ i{
     text-decoration: none;
     color:  #ff4c68
  }
+.footer-icons:hover{
+    color: rgb(249, 6, 6);
+    transition: color 0.2s;
+}
 
 
 @media(max-width:1020px){
