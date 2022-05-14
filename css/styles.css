@@ -1,0 +1,187 @@
+body{
+    font-family: "Kameron", 'serif';
+}
+
+#title{
+    /* background-color: #99004D ; */
+    background-color: #eb9490;
+    background-image: linear-gradient(315deg, #ee8e6b 0%, #ff4c68 74%);
+    color: white;
+}
+
+
+#pricing-h2{
+    font-family: "Kameron", 'serif';
+    font-size: 4rem;
+} 
+
+h3{
+    font-family: "Kameron", 'serif';
+    font-weight: bolder;
+} 
+
+p{
+    color: #8f8f8f;
+}
+
+i{
+    margin: 0.5rem;
+}
+
+.fluid-container{
+    padding: 3% 15% 13%;
+}
+
+#total-navbar{
+    padding: 0 0 4.5rem;
+}
+
+#brand-logo{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+#first-h1{
+    font-family:  'Kameron', serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.download-button span{
+    margin-left: 0.625rem;
+} 
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.logo-h1{
+    color:#ee8e6b;
+    margin-bottom: 1rem;
+}
+
+.logo-h1:hover{
+    color: #ff4c68;
+    transition: color 0.2s;
+}
+
+/* testimonial section */
+
+#testimonials{
+    text-align: center;
+    /* background-color: #ef8172; */
+    background-color: #ee8e6b;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-text{
+    font-family: "Kameron", 'serif';
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin-top: 1.25rem;
+}
+
+#press{
+    background-color: #ee8e6b;
+    /* background-image: linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%); */
+
+    text-align: center;
+    padding: 0 0 3% 0;
+}
+
+.press-img{
+    width: 15%;
+    margin: 10px 10px 50px;
+}
+
+.carou-button{
+    background: none;
+    border: 0;
+    top: 50%  !important;
+    transform: translateY(-50%);
+}
+
+#pricing{
+    padding: 6.25rem;
+    text-align: center;
+}
+.pricing-buttons{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #eb9490;
+    background-image: linear-gradient(315deg, #ee8e6b 0%, #ff4c68 74%);
+    color: white;
+    text-align: center;
+}
+
+#cta-h3{
+    padding-top: 5%;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.download-button-1{
+    margin: 1% 3% 3% 0;
+}
+
+#footer{
+    padding-top: 2%;
+    text-align: center;
+}
+ .footer-icons{
+    padding-bottom: 2%;
+    margin:  1rem 0.625rem;
+    text-decoration: none;
+    color:  #ff4c68
+ }
+
+
+@media(max-width:1020px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
