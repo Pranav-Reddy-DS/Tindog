@@ -95,8 +95,8 @@ i{
 
 #testimonials{
     text-align: center;
-    /* background-color: #ef8172; */
-    /* background-color: #ee8e6b; */
+/*     background-color: #ef8172; */
+    background-color: #ee8e6b;
 
 }
 
@@ -120,10 +120,11 @@ i{
 #test-and-logos{
     /* background-color: #ee8e6b;
     background-image: linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%); */
-    background-color: #e2cf3e;
-    background-image: linear-gradient(315deg, #e2cf3e 0%, #f07654 74%);
+/*     background-color: #e2cf3e;
+    background-image: linear-gradient(315deg, #e2cf3e 0%, #f07654 74%); */
 }
 #press{
+    background-color: #ee8e6b;
     text-align: center;
     padding: 0 0 3% 0;
 }
